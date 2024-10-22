@@ -473,7 +473,7 @@ a:hover, a:active, a:focus {
     align-items: stretch; 
 }
 
-#experience-thumb {
+.experience-thumb {
     display: flex;
     flex-direction: column; 
 }
@@ -482,7 +482,7 @@ a:hover, a:active, a:focus {
     margin-bottom: 20px; 
 }
 
-#experience-thumb img {
+.experience-thumb img {
     width: 50px;  
     height: 50px; 
 }
