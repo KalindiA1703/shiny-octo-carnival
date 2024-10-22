@@ -462,13 +462,26 @@ a:hover, a:active, a:focus {
 
 #experience .media .fa {
   font-size: 42px;
-  margin-right: 14px;
+  margin-left: 14px;
 }
 
 #experience small {
   color: #633;
   font-weight: bold;
 }
+#experience .parallax-section .row {
+    align-items: stretch; 
+}
+
+#experience-thumb {
+    display: flex;
+    flex-direction: column; 
+}
+
+#experience .media {
+    margin-bottom: 20px; 
+}
+
 
 /*---------------------------------------
     Education section              
