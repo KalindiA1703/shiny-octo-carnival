@@ -116,7 +116,7 @@ p {
 #service,
 #experience,
 #education,
-#certifications {
+#contact {
   position: relative;
 }
 
@@ -125,7 +125,7 @@ p {
 #experience .container,
 #service .container,
 #education .container,
-# .container {
+#contact .container {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -145,44 +145,13 @@ footer {
 #experience,
 #education {
   background: #E9724C;
-	.parallax-section .row {
-    align-items: stretch; 
-}
-
-.experience-thumb {
-    display: flex;
-    flex-direction: column; 
-}
-
-.media {
-    margin-bottom: 20px; 
-}
- #experience .media .fa {
-    font-size: 42px;
-    margin-left: 10px;
- }
-	
-.experience-thumb img {
-    width: 50px;  
-    height: 50px; 
-}
-	#education .media .fa {
-    font-size: 42px;
-    margin-left: 10px;
- }
-	
-.education-thumb img {
-    width: 50px;  
-    height: 50px; 
-}
-
 }
 
 .background-image {
     background-position: 50% 50% !important;
     background-size: cover !important;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     min-height: 75vh;
     position: absolute;
     top: 0;
@@ -387,7 +356,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('home-img.jpg') no-repeat;
+  background: url('../images/home-img.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -414,7 +383,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('1about-img.jpg') no-repeat;
+    background: url('../images/about-img.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -471,7 +440,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url(1experience-img.jpg') no-repeat;
+  background: url('../images/experience-img.jpg') no-repeat;
 }
 
 #experience .media-heading {
@@ -480,31 +449,13 @@ a:hover, a:active, a:focus {
 
 #experience .media .fa {
   font-size: 42px;
-  margin-left: 14px;
+  margin-right: 14px;
 }
 
 #experience small {
   color: #633;
   font-weight: bold;
 }
-#experience .parallax-section .row {
-    align-items: stretch; 
-}
-
-#experience .experience-thumb {
-    display: flex;
-    flex-direction: column; 
-}
-
-#experience .media {
-    margin-bottom: 20px; 
-}
-
-experience .experience-thumb img {
-    width: 50px;  
-    height: 50px; 
-}
-
 
 /*---------------------------------------
     Education section              
@@ -515,15 +466,13 @@ experience .experience-thumb img {
 }
 
 #education .education-img {
-  background: url('1education-img.jpg') no-repeat;
+  background: url('../images/education-img.jpg') no-repeat;
 }
 
 #education .media-heading {
   margin-bottom: 0px;
 }
-#education .parallax-section .row {
-    align-items: stretch; 
-}
+
 #education .media .fa {
   font-size: 42px;
   margin-right: 14px;
@@ -533,11 +482,6 @@ experience .experience-thumb img {
   color: #886D1E;
   font-weight: bold;
 }
-#education .education-thumb img {
-    width: 50px;  
-    height: 50px; 
-}
-
 
 
 
@@ -546,7 +490,7 @@ experience .experience-thumb img {
 -----------------------------------------*/
 
 #quotes {
-    background: url('1quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -575,34 +519,34 @@ experience .experience-thumb img {
 
 
 /*---------------------------------------
-    certifications section              
+    Contact section              
 -----------------------------------------*/
 
-#certifications {
+#contact {
   background: #E9724C;
 }
 
-#certifications .certifications-form,
-#certifications .certifications-thumb {
+#contact .contact-form,
+#contact .contact-thumb {
   padding: 22px 32px 22px 32px;
   min-height: 75vh;
 }
 
-#certifications .certifications-img {
-  background: url('1certifications-img.jpg') no-repeat;
+#contact .contact-img {
+  background: url('../images/contact-img.jpg') no-repeat;
   min-height: 75vh;
 }
 
-#certifications .certifications-info {
+#contact .contact-info {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-#certifications .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#certifications .form-control:-ms-input-placeholder{color:#ffffff}
-#certifications .form-control::-webkit-input-placeholder{color:#ffffff}
+#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
+#contact .form-control:-ms-input-placeholder{color:#ffffff}
+#contact .form-control::-webkit-input-placeholder{color:#ffffff}
 
-#certifications .form-control {
+#contact .form-control {
   background: transparent;
   border: none;
   border-bottom: 1px solid #E3AE57;
@@ -615,15 +559,15 @@ experience .experience-thumb img {
   transition: all 0.4s ease-in-out;
 }
 
-#certifications .form-control:focus {
+#contact .form-control:focus {
   border-bottom-color: #ffffff;
 }
 
-#certifications input {
+#contact input {
   height: 45px;
 }
 
-#certifications input[type="submit"] {
+#contact input[type="submit"] {
   background: #ffffff;
   border: 2px solid transparent;
   border-radius: 40px;
@@ -631,13 +575,13 @@ experience .experience-thumb img {
   padding-bottom: 10px;
 }
 
-#certifications input[type="submit"]:hover {
+#contact input[type="submit"]:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
 }
 
-#certifications .fa {
+#contact .fa {
   padding-right: 10px;
 }
 
@@ -731,7 +675,7 @@ footer {
   #experience .container,
   #service .container,
   #education .container,
-  #certifications .container {
+  #contact .container {
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -739,7 +683,7 @@ footer {
   #about .col-md-3,
   #experience .col-md-6,
   #education .col-md-6,
-  #certifications .col-md-3 {
+  #contact .col-md-3 {
     padding: 0;
     margin: 0;
   }
