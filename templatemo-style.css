@@ -145,6 +145,19 @@ footer {
 #experience,
 #education {
   background: #E9724C;
+	.parallax-section .row {
+    align-items: stretch; 
+}
+
+.experience-thumb {
+    display: flex;
+    flex-direction: column; 
+}
+
+.media {
+    margin-bottom: 20px; 
+}
+
 }
 
 .background-image {
